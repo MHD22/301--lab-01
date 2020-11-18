@@ -2,27 +2,58 @@ main{
     width: 100%;
     margin:100px 0 ;
 }
-.clear{
-    clear: both;
+
+article{
+    
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
 }
 
-@media only screen and(max-width: 767px){
 
-    .contain-float{
-        width: 480PX;
-        height: 500px;
+@media only screen and (max-width: 767px){
+    
+    #ll{
+        display: none;
+        visibility: hidden;
+    }
+    #ss{
+        display: flex;
+        flex-direction: column;
         margin: 0 auto;
         padding: 0;
+        width: 480px;
     }
+    div.efgh{
+        display: flex;
+        flex-flow: wrap row;
+        margin: 0 auto;
+        padding: 0;
+        width:480px;
+    }
+    
 
 }
 
 @media only screen and (min-width: 768px){
-    .container{
-        width: 100%;
+    #ss{
+        display: none;
+    }
+    #ll{
+        display: flex;
+        flex-flow: wrap row ;
         margin: 0 auto;
         padding: 0;
-
+        width: 960px;
+    }
+    .cdefghi{
+        display: flex;
+        flex-flow: wrap row;
+        margin: 0 auto;
+        padding: 0;
+        width: 760px;
     }
 
 }
+
+

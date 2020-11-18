@@ -5,7 +5,8 @@ body{
 @media only screen and (max-width: 767px){
     .a{
        
-        background-color: rgb(214, 98, 98);
+        background-color: rgb(27, 28, 29);
+        color: whitesmoke;
         border: 2px solid black;
     }
     .b{
@@ -15,7 +16,8 @@ body{
         border-top: none;
     }
     .c {
-        background-color: blue;
+        background-color: rgb(156, 11, 11);
+        color: whitesmoke;
         border: 2px solid black;
         border-top: none;
     }
@@ -26,14 +28,14 @@ body{
 
     }
     .e{
-        background-color: rgb(173, 214, 95);
+        background-color: rgb(238, 141, 15);
         border: 2px solid black;
         border-top: none;
         border-right: none;
     }
     .f{
-        background-color: rgb(158, 40, 105);
-        color: whitesmoke;
+        background-color: rgb(45, 153, 185);
+        /* color: whitesmoke; */
         border: 2px solid black;
         border-top: none;
     }
@@ -46,7 +48,7 @@ body{
 
     }
     .h{
-        background-color: rgb(40, 114, 47);
+        background-color: rgb(16, 66, 21);
         color: whitesmoke;
         border: 2px solid black;
         border-top: none;
@@ -62,7 +64,7 @@ body{
 }
 
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) and (max-width: 960px){
     .a{
         background-color: blue;
         border: 2px solid black;
@@ -118,6 +120,76 @@ body{
     }
     .i{
         background-color: rgb(151, 92, 15);
+        color: whitesmoke;
+        border: 2px solid black;
+        border-top: none;
+        border-left: none;
+    }
+
+
+}
+
+@media only screen and (min-width: 961px){
+
+    .a{
+        background-color: rgb(137, 137, 160);
+        border: 2px solid black;
+    }
+    .b{
+        background-color: rgb(25, 18, 58);
+        border: 2px solid black;
+        color: whitesmoke;
+        border-top: none;
+    }
+    .c {
+        background-color: rgb(184, 26, 26);
+        color: whitesmoke;
+        border: 2px solid black;
+        border-top: none;
+        border-left: none;
+    }
+    .d{
+        background-color: rgb(55, 56, 55);
+        border: 2px solid black;
+        color: whitesmoke;
+        border-top: none;
+        border-left: none;
+
+    }
+    
+    .e{
+        background-color: rgb(84, 114, 14);
+        color: whitesmoke;
+        border: 2px solid black;
+        border-top: none;
+        border-left: none;
+        
+    }
+    .f{
+        background-color: rgb(158, 40, 105);
+        color: whitesmoke;
+        border: 2px solid black;
+        border-top: none;
+        border-left: none;
+    }
+   
+    .g{
+        background-color: rgb(223, 209, 184);
+        
+        border: 2px solid black;
+        border-top: none;
+        border-left: none;
+
+    }
+    .h{
+        background-color: rgb(146, 112, 139);
+        
+        border: 2px solid black;
+        border-top: none;
+        border-left: none;
+    }
+    .i{
+        background-color: rgba(27, 26, 27, 0.884);
         color: whitesmoke;
         border: 2px solid black;
         border-top: none;
